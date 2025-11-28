@@ -28,7 +28,7 @@ services:
   rabbitmq:
     build: ./rabbitmq
     image: rabbitmq:3
-    container_name: rabbitmq
+    container_name: ravisankar666/rabbitmq
     volumes: # -v rabbitmq:/var/lib/rabbitmq
     - rabbitmq:/var/lib/rabbitmq
     environment:
@@ -50,7 +50,7 @@ services:
     - catalogue
   shipping:
     build: ./shipping
-    image: shipping:v1
+    image: ravisankar666/shipping:v1
     container_name: shipping
     depends_on:
     - mysql
