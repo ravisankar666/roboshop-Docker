@@ -1,5 +1,5 @@
 
-FROM maven:3.9.11 As build
+FROM maven:3.9.11 AS build
 WORKDIR /opt/server
 COPY pom.xml .
 COPY src ./src
