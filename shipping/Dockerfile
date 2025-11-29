@@ -23,7 +23,7 @@ ENTRYPOINT ["java","-jar","shipping.jar"]
 
 
 
-
+#maven only developemnt purpose only , dont need run time.
 
 # FROM maven:3.9.11 
 # EXPOSE 8080
